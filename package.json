@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor/active-directory-plugin",
+  "name": "capacitor-aad",
   "version": "1.0.0",
   "description": "Capacitor plugin used to authenticate with Azure Active Directory on apps and PWAs!",
   "license": "MIT",
@@ -10,9 +10,12 @@
   },
   "scripts": {
     "build": "babel lib/ -d dist --copy-files --include-dotfiles",
+    "prepublish": "npm run build",
     "test": "jasmine-node tests/unit/spec"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lebab": "^3.1.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",

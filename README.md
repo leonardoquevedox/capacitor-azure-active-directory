@@ -8,17 +8,17 @@
 | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------ | ----------------------------------------------- |
 
 
-Active Directory Authentication Library for JavaScript (Plugin JS) helps you to use Azure AD for handling authentication in your single page applications.
+Capacitor Active Directory Authentication Plugin helps you to use Azure AD for handling authentication in your cross platform apps and PWAs.
 
 ## Installation
 
 Via NPM:
 
-    npm install @capacitor/active-directory-plugin
+    npm install capacitor-aad
 
 Via Yarn:
 
-    $ yarn add @capacitor/active-directory-plugin
+    $ yarn add capacitor-aad
 
 The Plugin.js source is [here](https://github.com/AzureAD/azure-activedirectory-library-for-js/tree/master/lib/Plugin.js).
 The Plugin-angular.js source is [here](https://github.com/AzureAD/azure-activedirectory-library-for-js/tree/master/lib/Plugin-angular.js).
