@@ -14,14 +14,13 @@ Capacitor Active Directory Authentication Plugin helps you to use Azure AD for h
 
 Via NPM:
 
-    npm install capacitor-aad
+    npm install capacitor-aad cordova-plugin-inappbrowser
 
 Via Yarn:
 
-    $ yarn add capacitor-aad
+    $ yarn add capacitor-aad cordova-plugin-inappbrowser
 
 The Plugin.js source is [here](https://github.com/AzureAD/azure-activedirectory-library-for-js/tree/master/lib/Plugin.js).
-The Plugin-angular.js source is [here](https://github.com/AzureAD/azure-activedirectory-library-for-js/tree/master/lib/Plugin-angular.js).
 
 ## Usage
 
@@ -32,7 +31,7 @@ You can use Plugin JS as follows in a plain JavaScript application without any f
 1- Import plugin from
 
 ```js
-import ActiveDirectoryPlugin from '@capacitor/active-directory-plugin'
+import ActiveDirectoryPlugin from 'capacitor-aad'
 ```
 
 2- Initialize the plugin on your config files (for example `src/config/auth.js`) as the following:
