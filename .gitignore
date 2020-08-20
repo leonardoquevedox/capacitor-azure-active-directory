@@ -1,95 +1,49 @@
-#OS junk files
-[Tt]humbs.db
-*.DS_Store
-
-#node
-*.iml
-*.ipr
-*.iws
-*.tmproj
-.project
-.settings
-.externalToolBuilders
-*.swp
-node_modules
-*~
-/.c9revisions/
-build/
-samples/
-
-#Visual Studio files
-*.[Oo]bj
-*.user
-*.aps
-*.pch
-*.vspscc
-*.vssscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.[Cc]ache
-*.ilk
+# Logs
+logs
 *.log
-*.lib
-*.sbr
-*.sdf
-*.opensdf
-*.unsuccessfulbuild
-ipch/
-[Oo]bj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-Ankh.NoLoad
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-#MonoDevelop
-*.pidb
-*.userprefs
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-#Tooling
-_ReSharper*/
-*.resharper
-[Tt]est[Rr]esult*
-*.sass-cache
-
-#Project files
-[Bb]uild/
-
-#Subversion files
-.svn
-
-# Office Temp Files
-~$*
-
-# vim Temp Files
-*~
-
-#NuGet
-packages/
-*.nupkg
-
-#bower
+# Bower dependency directory (https://bower.io/)
 bower_components
 
-#ncrunch
-*ncrunch*
-*crunch*.local.xml
+# node-waf configuration
+.lock-wscript
 
-# visual studio database projects
-*.dbmdl
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
 
-#Test files
-*.testsettings
+# Dependency directories
+node_modules/
 
-#copied adal
-samples/owin/OwinSample/Scripts/adal.js
+# Optional npm cache directory
+.npm
 
-#webstorm
-.idea
+# Optional eslint cache
+.eslintcache
 
-#codecoverage
-coverage
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Build folder
+dist/
+build/
+
+# Temporary files
+temp/*
+!temp/.gitkeep
