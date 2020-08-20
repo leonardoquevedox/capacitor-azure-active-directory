@@ -1,6 +1,6 @@
 {
   "name": "capacitor-aad",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Capacitor plugin used to authenticate with Azure Active Directory on apps and PWAs!",
   "license": "MIT",
   "author": {
